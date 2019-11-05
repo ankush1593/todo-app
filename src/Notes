@@ -1,0 +1,21 @@
+>> React is a JavaScript library for building user interfaces.
+>> React framework is same for both browser based and native applications.
+>> React-DOM helps us to run and view it in a browser. For mobile apps we use react native.
+>> Package.json is to list the dependencies to be used which will be installed by npm.
+>> App is divided into resuable components.
+>> Each component has a JS file (Which also has JSX), a CSS and a state and prop associated with it.
+>> Whenever we are creating a component extending the Component class we need to define render method.
+>> Class component have a few additional features on top of function components. One of them is state.
+>> React app comes bundles with 'bable'. Bable -> It enalbes us to write code in the latest version of 
+javascript and compile it or convert it to earlier versions.
+
+# Use of super in constructer. Why can't we do anything until super is called.
+# Use of binding a method.
+# Difference between using this.state.counter++ and this.setState({counter : this.state.counter + 1})
+
+>> React uses the concept of virtual DOM to ensure quick updation of DOM.
+                         Virtual DOM
+          diff & update/             \creates
+                    DOM  --events--> App
+>> To define inline CSS in JSX we need to define it as a object. For eg: <span className="xyz"
+style = {{fontSize : "50px"}}
